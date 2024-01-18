@@ -16,8 +16,8 @@ body {
   background-size: 765px 347px;
   height: 100vh;
   position: relative;
-  padding-top: 447px;
   text-align: center;
+  padding: 447px 20px 0 20px;
 }
 
 .hero-section h1 {
@@ -42,4 +42,19 @@ body {
 
 .info-section * {
   opacity: 0.75;
+}
+
+@media (max-width: 600px) {
+  .hero-section {
+    background-size: 550px 250px;
+    padding-top: 231px;
+  }
+
+  .hero-section h1 {
+    font-size: 38px;
+  }
+
+  .hero-section h3 {
+    font-size: 28px;
+  }
 }
