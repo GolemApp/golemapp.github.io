@@ -48,7 +48,7 @@ body {
 @media (max-width: 576px) {
   .hero-section {
     background-size: 550px 250px;
-    padding-top: 270px;
+    padding-top: 280px;
   }
 
   .hero-section h1 {
