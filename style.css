@@ -15,6 +15,7 @@ body {
   background: url(./images/hero-with-logo-2x.png) no-repeat top 100px center;
   background-size: 765px 347px;
   height: 100vh;
+  max-height: -webkit-fill-available;
   position: relative;
   text-align: center;
   padding: 447px 20px 0 20px;
