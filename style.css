@@ -28,7 +28,18 @@ body {
   font-size: 32px;
 }
 
+.hero-section .app-name {
+  background: #FFFFFF;
+  background: linear-gradient(to top, #F1331E 0%, #F0710E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .info-section {
   text-align: center;
   background: rgba(255,255,255,0.05);
+}
+
+.info-section * {
+  opacity: 0.75;
 }
