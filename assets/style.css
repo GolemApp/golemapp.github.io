@@ -54,16 +54,40 @@ a.with-underline:hover {
   animation: gradientAnimation 300ms;
 }
 
-.ml-auto {
-  margin-left: auto !important;
-}
-
 .o-50 {
   opacity: 0.5;
 }
 
 .o-75 {
   opacity: 0.75;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+
+@media (min-width: 576px) {
+  .ml-sm-auto {
+    margin-left: auto !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .ml-md-auto {
+    margin-left: auto !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .ml-lg-auto {
+    margin-left: auto !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ml-xl-auto {
+    margin-left: auto !important;
+  }
 }
 
 @keyframes gradientAnimation {
@@ -144,9 +168,6 @@ footer:before {
 
 .footer a:last-child {
   margin-right: 0;
-}
-
-.footer span {
 }
 
 .hero-section {
