@@ -173,7 +173,7 @@ footer:before {
 .hero-section {
   background: url(./images/hero-with-logo-2x.png) no-repeat top 100px center;
   background-size: 765px 347px;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
   text-align: center;
   padding: 447px 20px 60px 20px;
@@ -208,7 +208,7 @@ footer:before {
 @media (max-width: 576px) {
   .hero-section {
     background-size: 550px 250px;
-    padding-top: 280px;
+    padding-top: 350px;
     padding-bottom: 20px;
   }
 
