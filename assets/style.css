@@ -177,7 +177,7 @@ footer:before {
   min-height: 100vh;
   position: relative;
   text-align: center;
-  padding: 447px 20px 60px 20px;
+  padding: 487px 20px 60px 20px;
 }
 
 .hero-section h1 {
@@ -197,6 +197,22 @@ footer:before {
 
 .content-section {
   padding: 40px;
+}
+
+.app-store-qr {
+  width: 140px;
+  height: 140px;
+}
+
+.button-link {
+  background: #FFFFFF;
+  background: linear-gradient(to top, #F1331E 0%, #F0710E 100%);
+  border: 0 none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: inline-block;
 }
 
 
